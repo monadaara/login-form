@@ -33,7 +33,7 @@
   #form
   {
       margin-top: 20px;
-    padding: 20px;
+      padding: 20px;
   }
   .container
   {
@@ -128,3 +128,48 @@
     color: var(--error-color);
     visibility: visible;
 }
+
+/* media query */
+
+
+@media only screen  and (max-width:380px)
+{
+    .container
+    {
+        width: calc(100% - 20px);
+        margin: 0 auto;
+    }
+    
+   
+    .social img
+    {
+        display: none;
+    }
+    /* #form
+    {
+       
+    }
+    .social
+    {
+        flex-direction: column;
+        justify-content: center;
+        margin: 0% auto;
+        text-align: center;
+    } */
+}
+
+/* @media only screen  and (max-width:327px)
+{
+    .social
+    {
+        flex-direction: column;
+       
+    }
+    .social .btn-socail
+    {
+        width: 100%;
+        display: block;
+        align-items: center;
+        justify-content: center;
+    } 
+} */
